@@ -9,12 +9,31 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var previous: CGFloat = 0
+    @IBOutlet weak var picture: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        picture.isUserInteractionEnabled = true
     }
 
-
+    @IBAction func fadingOut(_ sender: UIPanGestureRecognizer) {
+        let translation = sender.translation(in: picture)
+        let delta = translation.x - previous
+        let width = picture.frame.size.width
+        let alpha = picture.alpha + (delta/width)
+        
+        if alpha > 0.1 && alpha < 1 {
+            picture.alpha = alpha
+        }
+        
+        if sender.state == .ended {
+            previous = 0
+        } else {
+            previous = translation.x
+        }
+    }
+    
 }
 
