@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ImgVC: UIViewController {
     
     var previous: CGFloat = 0
     @IBOutlet weak var picture: UIImageView!

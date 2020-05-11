@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		CEDC907D2469917700798733 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC907C2469917700798733 /* AppDelegate.swift */; };
 		CEDC907F2469917700798733 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC907E2469917700798733 /* SceneDelegate.swift */; };
-		CEDC90812469917700798733 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC90802469917700798733 /* ViewController.swift */; };
+		CEDC90812469917700798733 /* ImgVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC90802469917700798733 /* ImgVC.swift */; };
 		CEDC90842469917700798733 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90822469917700798733 /* Main.storyboard */; };
 		CEDC90862469917D00798733 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90852469917D00798733 /* Assets.xcassets */; };
 		CEDC90892469917D00798733 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90872469917D00798733 /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		CEDC90792469917700798733 /* UIGestureRecognizer0511.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIGestureRecognizer0511.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDC907C2469917700798733 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEDC907E2469917700798733 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CEDC90802469917700798733 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEDC90802469917700798733 /* ImgVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgVC.swift; sourceTree = "<group>"; };
 		CEDC90832469917700798733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEDC90852469917D00798733 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEDC90882469917D00798733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 			children = (
 				CEDC907C2469917700798733 /* AppDelegate.swift */,
 				CEDC907E2469917700798733 /* SceneDelegate.swift */,
-				CEDC90802469917700798733 /* ViewController.swift */,
+				CEDC90802469917700798733 /* ImgVC.swift */,
 				CEDC90822469917700798733 /* Main.storyboard */,
 				CEDC90852469917D00798733 /* Assets.xcassets */,
 				CEDC90872469917D00798733 /* LaunchScreen.storyboard */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEDC90812469917700798733 /* ViewController.swift in Sources */,
+				CEDC90812469917700798733 /* ImgVC.swift in Sources */,
 				CEDC907D2469917700798733 /* AppDelegate.swift in Sources */,
 				CEDC907F2469917700798733 /* SceneDelegate.swift in Sources */,
 			);
