@@ -13,6 +13,8 @@
 		CEDC90842469917700798733 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90822469917700798733 /* Main.storyboard */; };
 		CEDC90862469917D00798733 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90852469917D00798733 /* Assets.xcassets */; };
 		CEDC90892469917D00798733 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90872469917D00798733 /* LaunchScreen.storyboard */; };
+		CEDC9096246A482E00798733 /* CodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC9095246A482E00798733 /* CodeVC.swift */; };
+		CEDC9098246A5E7C00798733 /* CodeVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC9097246A5E7C00798733 /* CodeVC2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CEDC90852469917D00798733 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEDC90882469917D00798733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEDC908A2469917D00798733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDC9095246A482E00798733 /* CodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeVC.swift; sourceTree = "<group>"; };
+		CEDC9097246A5E7C00798733 /* CodeVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeVC2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				CEDC907C2469917700798733 /* AppDelegate.swift */,
 				CEDC907E2469917700798733 /* SceneDelegate.swift */,
 				CEDC90802469917700798733 /* ImgVC.swift */,
+				CEDC9095246A482E00798733 /* CodeVC.swift */,
+				CEDC9097246A5E7C00798733 /* CodeVC2.swift */,
 				CEDC90822469917700798733 /* Main.storyboard */,
 				CEDC90852469917D00798733 /* Assets.xcassets */,
 				CEDC90872469917D00798733 /* LaunchScreen.storyboard */,
@@ -141,6 +147,8 @@
 				CEDC90812469917700798733 /* ImgVC.swift in Sources */,
 				CEDC907D2469917700798733 /* AppDelegate.swift in Sources */,
 				CEDC907F2469917700798733 /* SceneDelegate.swift in Sources */,
+				CEDC9098246A5E7C00798733 /* CodeVC2.swift in Sources */,
+				CEDC9096246A482E00798733 /* CodeVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

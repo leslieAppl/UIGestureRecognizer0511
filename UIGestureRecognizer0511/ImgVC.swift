@@ -20,10 +20,17 @@ class ImgVC: UIViewController {
 
     @IBAction func fadingOut(_ sender: UIPanGestureRecognizer) {
         let translation = sender.translation(in: picture)
+        print("translation.x \(translation.x)")
+        print("previous: \(previous)")
         let delta = translation.x - previous
+        print("delta: \(delta)")
         let width = picture.frame.size.width
+        print("width: \(width)")
+        print("delta/width: \(delta/width)")
+        print("picture.alpha: \(picture.alpha)")
         let alpha = picture.alpha + (delta/width)
-        
+        print("new alpha: \(alpha)")
+
         if alpha > 0.1 && alpha < 1 {
             picture.alpha = alpha
         }

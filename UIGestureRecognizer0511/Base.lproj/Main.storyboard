@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Img-->
+        <!--UI-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ImgVC" customModule="UIGestureRecognizer0511" customModuleProvider="target" sceneMemberID="viewController">
@@ -32,7 +32,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Img" image="pencil.circle" catalog="system" id="pXj-HI-DW7"/>
+                    <tabBarItem key="tabBarItem" title="UI" image="pencil.circle" catalog="system" id="pXj-HI-DW7"/>
                     <connections>
                         <outlet property="picture" destination="aUN-qw-djD" id="GKu-Lt-uXw"/>
                     </connections>
@@ -46,6 +46,38 @@
             </objects>
             <point key="canvasLocation" x="-55" y="835"/>
         </scene>
+        <!--Code-->
+        <scene sceneID="ciK-ki-AgA">
+            <objects>
+                <viewController id="Gi8-MF-MOH" customClass="CodeVC" customModule="UIGestureRecognizer0511" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hVJ-SR-Ern">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="ffi-8x-2ka"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Code" image="pencil.circle.fill" catalog="system" id="h6k-Yw-RGW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sgq-sy-WSP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="657" y="834"/>
+        </scene>
+        <!--code2-->
+        <scene sceneID="Ho5-Ix-xul">
+            <objects>
+                <viewController id="crO-KH-otz" customClass="CodeVC2" customModule="UIGestureRecognizer0511" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BMb-yW-xkE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="KFb-2d-Anu"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="code2" image="pencil" catalog="system" id="Bmq-Y3-HY9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pch-gu-9vh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1359" y="834"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="ZWB-is-hms">
             <objects>
@@ -58,6 +90,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Aed-RB-KWe"/>
+                        <segue destination="Gi8-MF-MOH" kind="relationship" relationship="viewControllers" id="vjd-BV-3Ec"/>
+                        <segue destination="crO-KH-otz" kind="relationship" relationship="viewControllers" id="twJ-YA-v1G"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7lH-Ne-TFB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -67,6 +101,8 @@
     </scenes>
     <resources>
         <image name="husky" width="300" height="400"/>
+        <image name="pencil" catalog="system" width="128" height="113"/>
         <image name="pencil.circle" catalog="system" width="128" height="121"/>
+        <image name="pencil.circle.fill" catalog="system" width="128" height="121"/>
     </resources>
 </document>
