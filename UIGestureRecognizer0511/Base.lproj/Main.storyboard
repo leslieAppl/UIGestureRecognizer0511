@@ -69,14 +69,42 @@
                     <view key="view" contentMode="scaleToFill" id="BMb-yW-xkE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="husky" translatesAutoresizingMaskIntoConstraints="NO" id="s41-rB-5kh">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gzr-Sm-B6K">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="W8K-yC-kr3">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <blurEffect style="regular"/>
+                            </visualEffectView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Gzr-Sm-B6K" firstAttribute="top" secondItem="BMb-yW-xkE" secondAttribute="top" id="9Nx-LW-7zi"/>
+                            <constraint firstItem="Gzr-Sm-B6K" firstAttribute="trailing" secondItem="KFb-2d-Anu" secondAttribute="trailing" id="IXW-bQ-7T7"/>
+                            <constraint firstAttribute="bottom" secondItem="Gzr-Sm-B6K" secondAttribute="bottom" id="O0Q-BV-WX0"/>
+                            <constraint firstItem="s41-rB-5kh" firstAttribute="bottom" secondItem="KFb-2d-Anu" secondAttribute="bottom" id="QWe-yh-FSm"/>
+                            <constraint firstItem="Gzr-Sm-B6K" firstAttribute="leading" secondItem="KFb-2d-Anu" secondAttribute="leading" id="TJc-L3-dem"/>
+                            <constraint firstItem="s41-rB-5kh" firstAttribute="trailing" secondItem="KFb-2d-Anu" secondAttribute="trailing" id="pu3-Od-Qlt"/>
+                            <constraint firstItem="s41-rB-5kh" firstAttribute="top" secondItem="KFb-2d-Anu" secondAttribute="top" id="r53-8w-yNK"/>
+                            <constraint firstItem="s41-rB-5kh" firstAttribute="leading" secondItem="KFb-2d-Anu" secondAttribute="leading" id="yrY-WL-yGG"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="KFb-2d-Anu"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="code2" image="pencil" catalog="system" id="Bmq-Y3-HY9"/>
+                    <connections>
+                        <outlet property="picture" destination="s41-rB-5kh" id="G11-hb-xDQ"/>
+                        <outlet property="visualEffect" destination="Gzr-Sm-B6K" id="Vsx-eW-0GW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pch-gu-9vh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1359" y="834"/>
+            <point key="canvasLocation" x="1357.9710144927537" y="833.70535714285711"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="ZWB-is-hms">
