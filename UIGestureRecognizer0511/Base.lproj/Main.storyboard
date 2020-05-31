@@ -106,6 +106,34 @@
             </objects>
             <point key="canvasLocation" x="1357.9710144927537" y="833.70535714285711"/>
         </scene>
+        <!--scrol-->
+        <scene sceneID="Ze2-Fq-cs5">
+            <objects>
+                <viewController id="AHh-Dp-vvt" customClass="ScrollVC" customModule="UIGestureRecognizer0511" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fRY-Cb-vo9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qPG-Q5-Y9r">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="Tal-fM-VPR"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="N9Y-zt-VLL"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="tWq-LW-gXq"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="scrol" image="pencil" catalog="system" id="F9c-rP-OQI"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="mainScroll" destination="qPG-Q5-Y9r" id="n2U-q2-63T"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5BZ-Sx-2JZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2076.8115942028985" y="833.70535714285711"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="ZWB-is-hms">
             <objects>
@@ -120,11 +148,12 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Aed-RB-KWe"/>
                         <segue destination="Gi8-MF-MOH" kind="relationship" relationship="viewControllers" id="vjd-BV-3Ec"/>
                         <segue destination="crO-KH-otz" kind="relationship" relationship="viewControllers" id="twJ-YA-v1G"/>
+                        <segue destination="AHh-Dp-vvt" kind="relationship" relationship="viewControllers" id="Lno-gj-aT8"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7lH-Ne-TFB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="126.5625"/>
+            <point key="canvasLocation" x="1064" y="104"/>
         </scene>
     </scenes>
     <resources>

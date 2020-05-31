@@ -15,6 +15,7 @@
 		CEDC90892469917D00798733 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDC90872469917D00798733 /* LaunchScreen.storyboard */; };
 		CEDC9096246A482E00798733 /* CodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC9095246A482E00798733 /* CodeVC.swift */; };
 		CEDC9098246A5E7C00798733 /* CodeVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC9097246A5E7C00798733 /* CodeVC2.swift */; };
+		CEDC909A246A838700798733 /* ScrollVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC9099246A838600798733 /* ScrollVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		CEDC908A2469917D00798733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEDC9095246A482E00798733 /* CodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeVC.swift; sourceTree = "<group>"; };
 		CEDC9097246A5E7C00798733 /* CodeVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeVC2.swift; sourceTree = "<group>"; };
+		CEDC9099246A838600798733 /* ScrollVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				CEDC90802469917700798733 /* ImgVC.swift */,
 				CEDC9095246A482E00798733 /* CodeVC.swift */,
 				CEDC9097246A5E7C00798733 /* CodeVC2.swift */,
+				CEDC9099246A838600798733 /* ScrollVC.swift */,
 				CEDC90822469917700798733 /* Main.storyboard */,
 				CEDC90852469917D00798733 /* Assets.xcassets */,
 				CEDC90872469917D00798733 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEDC90812469917700798733 /* ImgVC.swift in Sources */,
+				CEDC909A246A838700798733 /* ScrollVC.swift in Sources */,
 				CEDC907D2469917700798733 /* AppDelegate.swift in Sources */,
 				CEDC907F2469917700798733 /* SceneDelegate.swift in Sources */,
 				CEDC9098246A5E7C00798733 /* CodeVC2.swift in Sources */,
